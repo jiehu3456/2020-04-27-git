@@ -1,6 +1,6 @@
-## 2020-04-27-git Git Lesson
+# 2020-04-27-git Git Lesson
 
-# Notes for local
+## Notes for local
 - `git init`: creates a git repository in current directory
 	- You should only do this once in a repository (i.e., no nested git repos)
 - `git status`: tells you what is going on
@@ -16,7 +16,7 @@
 		- `git checkout master`: go back to our original place
 - HEAD: place we're looking at right now on our computer
 
-# Notes for remote
+## Notes for remote
 - remote: a place where the git repo is stored, e.g., GitHub
 	- `git remote add origin <URL>`: add a remote
 - `git push origin master`: pushes the master branch on our local computer to the remote name origin
